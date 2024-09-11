@@ -1,0 +1,136 @@
+/* Aplicamos estilos universales */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Aplicamos estilos al borde */
+body{
+    font-family: "Open Sans";
+    font-size: 16px;  
+}
+
+/* ---------------------IICIO DE CABECERA--------------------- */
+/* Aplicamos estilos al contenedor */
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+/* Aplicamos estilos al header */
+header{
+    background: url(/img/foto2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 600px
+}
+/* Aplicamos estilo para el menú */
+header nav{
+    margin: 40px 0;
+    text-align: right;
+}
+header nav a{
+    margin: 0 20px;
+    padding-bottom: 9px;
+    text-decoration: none;
+    border-bottom: solid 2px transparent grey;
+    color: white;
+}
+header nav a :hover{
+    border-bottom: 2px solid black;
+}
+/* Aplicamos estilo al contenedor de texto */
+header .contenedortexto{
+    justify-content: center;
+    align-content: center;
+    margin: 190px 0;
+}
+header .contenedortexto .texto{
+    border: 2px solid grey;
+    border-radius: 3px;
+    text-align: center;
+    padding: 20px 60px;
+}
+header .contenedortexto .texto h1, header .contenedortexto .texto h2{
+    color: white;
+    font-weight: 300;
+    margin: 0;
+}
+header .contenedortexto .texto .nombre{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+header .contenedortexto .texto .profesión{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+/* ---------------------FIN DE CABECERA--------------------- */
+
+/* ---------------------CUERPO--------------------- */
+/* ---------------------ACERCA DE--------------------- */
+.peincipal .acercade{
+    text-align: center;
+}
+.principal .acercade .foto{
+    margin-top: -60px;
+}
+.principal .acercade .foto img{
+    border-radius: 50px;
+    vertical-align: top;
+    border: 2px solid gray;
+
+}
+.principal .acercade .texto{
+    font-weight: 600;
+    width: 80%;
+    margin: 40px auto 60px auto;
+}
+.principal .acercade .título{
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    color: yellow;
+}
+/* --------------------- FIN ACERCA DE--------------------- */
+
+/* --------------------- TRABAJOS--------------------- */
+.principal .trabajos{
+    background: darkgray;
+    padding: 60px 0;
+}
+.principal .trabajos .título{
+    font-size: 35px;
+    margin-bottom: 60px;
+    font-weight: bolder;
+    color: darkmagenta;
+    text-align: center;
+}
+.principal .trabajos .contenedortrabajos{
+    justify-content: space-between;
+}
+.principal .trabajos .contenedortrabajos .trabajo{
+    width: 25px;
+    margin-bottom: 40px;
+}
+.principal .trabajos .contenedortrabajos .trabajo .imagen{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.principal .trabajos .contenedortrabajos .trabajo .imagen img{
+    vertical-align: top;
+    width: 100%;
+    border-radius: 5px;
+}
+.principal .trabajos .contenedortrabajos .trabajo .descripción{
+text-align: center;
+}
+.principal .trabajos .contenedortrabajos .trabajo .descripción .nombre{
+    font-weight: bolder;
+    color: darkmagenta;
+    margin-bottom: 10px;
+}
+.principal .trabajos .contenedortrabajos .trabajo .descripción .categoría{
+    font-size: 15px;
+    color: dimgray;
+}
+/* --------------------- FIN DE TRABAJOS--------------------- */
+/* --------------------- FIN DEL CUERPO--------------------- */

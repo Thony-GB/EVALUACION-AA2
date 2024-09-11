@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo 1 - HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
 </head>
+
 <body>
     <!-- Inicia el header -->
     <header>
-        <div>
+        <div class="contenedor">
             <div>
                 <nav>
                     <a href="#">Acerca de</a>
@@ -16,10 +22,10 @@
                     <a href="#">Contactanos</a>
                 </nav>
             </div>
-            <div>
-                <div>
-                    <h1>Anthony Manuel Guevara Becerra</h1>
-                    <h2>Especialista en desarrollo web</h2>
+            <div class="contenedortexto">
+                <div class="texto">
+                    <h1 class="nombre">Anthony Manuel Guevara Becerra</h1>
+                    <h2 class="profesión">Especialista en desarrollo web</h2>
                 </div>
             </div>
         </div>
@@ -31,93 +37,93 @@
     </header>
     <!-- Fin del header -->
     <!-- Inicia la sección principal -->
-    <section>
+    <section class="principal">
         <!-- Inicia la sección acerca de  -->
-        <section>
-            <div>
-                <img src="img/YO.jpg" width="100" height="100" alt="Anthony Manuel Guevara Becerra">
+        <section class="acercade">
+            <div class="foto">
+                <img src="img/Anthony.jpg"  alt="Anthony Manuel Guevara Becerra">
             </div>
-            <div>
-                <h3>Acerca de</h3>
+            <div class="texto">
+                <h3 class="título">Acerca de</h3>
                 <p>Actualmente perteneciente a las FF.AA. y estudiante de Arquitectura de sistemas de información.</p>
             </div>
         </section>
         <!-- Fin de la sección acerca de -->
         <!-- Inicia la sección trabajos -->
-        <section>
-            <div>
-                <h3>Trabajos</h3>
-                <div>
-                    <div>
-                        <div>
-                            <img src="img/trabajo1" alt="Trabajo 1">
+        <section class="trabajos">
+            <div class="contenedor">
+                <h3 class="título">Trabajos</h3>
+                <div class="contenedortrabajos">
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="img/trabajo1.jpeg" alt="Trabajo 1">
                         </div>
-                        <div>
-                            <p>Lorem ipsum</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="img/trabajo2" alt="Trabajo 2">
-                        </div>
-                        <div>
-                            <p>Lorem ipsum</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <div class="descripción">
+                            <p class="nombre">Lorem ipsum</p>
+                            <p class="categoría">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <img src="img/trabajo3" alt="Trabajo 3">
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="img/trabajo2.jpeg" alt="Trabajo 2">
                         </div>
-                        <div>
-                            <p>Lorem ipsum</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="img/trabajo4" alt="Trabajo 4">
-                        </div>
-                        <div>
-                            <p>Lorem ipsum</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <div class="descripción">
+                            <p class="nombre">Lorem ipsum</p>
+                            <p class="categoría">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <img src="img/trabajo5" alt="Trabajo 5">
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="img/trabajo3.png" alt="Trabajo 3">
                         </div>
-                        <div>
-                            <p>Lorem ipsum</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="img/trabajo6" alt="Trabajo 6">
-                        </div>
-                        <div>
-                            <p>Lorem ipsum</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <div class="descripción">
+                            <p class="nombre">Lorem ipsum</p>
+                            <p class="categoría">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <img src="img/trabajo7" alt="Trabajo 7">
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="img/trabajo4.jpg" alt="Trabajo 4">
                         </div>
-                        <div>
-                            <p>Lorem ipsum</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <div class="descripción">
+                            <p class="nombre">Lorem ipsum</p>
+                            <p class="categoría">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <img src="img/trabajo8" alt="Trabajo 8">
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="img/trabajo5.jpeg" alt="Trabajo 5">
                         </div>
-                        <div>
-                            <p>Lorem ipsum</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <div class="descripción">
+                            <p class="nombre">Lorem ipsum</p>
+                            <p class="categoría">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="img/trabajo6.webp" alt="Trabajo 6">
+                        </div>
+                        <div class="descripción">
+                            <p class="nombre">Lorem ipsum</p>
+                            <p class="categoría">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="img/trabajo7.jpg" alt="Trabajo 7">
+                        </div>
+                        <div class="descripción">
+                            <p class="nombre">Lorem ipsum</p>
+                            <p class="categoría">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="img/trabajo8.jpg" alt="Trabajo 8">
+                        </div>
+                        <div class="descripción">
+                            <p class="nombre">Lorem ipsum</p>
+                            <p class="categoría">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                         </div>
                     </div>
                 </div>
